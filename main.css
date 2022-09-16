@@ -10801,9 +10801,9 @@ textarea.form-control-lg {
   src: local(""), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.woff") format("woff");
 }
 .container-custom {
-  max-width: 1360px;
+  max-width: 1340px;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
