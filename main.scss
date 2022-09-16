@@ -139,34 +139,6 @@ $warning: darkcyan;
 }
 
 
-@media only screen and (max-width: 870px) {
-  .s1-intro {
-    background-image: url("./images/intro-mountains.svg");
-    background-size: auto 500px;
-    background-repeat: no-repeat;
-    background-position: calc(50% - 216px) calc(50% + 0px);
-  }
-}
-
-@media only screen and (min-width: 870px) and (max-width: 1100px) {
-  .s1-intro {
-    background-image: url("./images/intro-bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: calc(50% - 115px) calc(50% + 0px);
-  }
-}
-
-
-@media only screen and (min-width: 1100px) {
-  .s1-intro {
-    background-image: url("./images/intro-bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: calc(50% + 0px) calc(50% + 0px);
-  }
-}
-
 .s1-box {
   max-width: 480px;
 }
@@ -315,153 +287,6 @@ $warning: darkcyan;
   &:nth-child(6) .s3-list-title::before {
     background-image: url("../images/kubik.svg");
   }
-}
-
-
-.s5 {
-  padding: 140px 0 100px 0;
-}
-
-.s5-title {
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 187.5%;
-  color: #222222;
-}
-
-.s5-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 187.5%;
-  color: #525252;
-}
-
-.s6-title {
-  margin-bottom: 34px;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 33px;
-  color: #000000;
-}
-.s6-text {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
-  color: #515151;
-}
-.s6-button {
-  padding: 13px 45px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF;
-  background-color: #DC7000;
-}
-
-.s6-img {
-  position: relative;
-  left: -3%;
-}
-
-.s7-title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 187.5%;
-  color: #222222;
-}
-.s7-text {
-  margin-bottom: 40px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 187.5%;
-  color: #525252;
-}
-
-.s7-box {
-  padding: 30px 22px;
-  background-color: #1B1B1B;
-  border-radius: 15px;
-}
-.s7-input-title {
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 45px;
-}
-.s7-input-text {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-}
-.s7-label {
-  padding: 6px 6px 6px 15px;
-  border-radius: 8px;
-}
-.s7-input {
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 20px;
-  color: #898989;
-  border: none;
-  background-color: transparent;
-  outline: white;
-}
-
-.s7-input-button {
-  padding: 7px 11px;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
-  border: none;
-  border-radius: 8px !important;
-  background-color: #DC7000;
-}
-
-
-.site-footer {
-  margin-top: 150px;
-  padding: 0px 0 30px 0;
-  background-color: #1B1B1B;
-}
-
-.foot-top {
-  padding-top: 66px;
-}
-
-.foot-1-text {
-  margin-top: 20px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;;
-}
-.foot-1-lasttext {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  
-}
-.foot-2-toptext {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 26px;
-}
-.foot-2-items-links {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 186.3%;
-  color: #FFFFFF;  
-  text-decoration: none;
-}
-
-hr {
-  margin-bottom: 0;
-  padding-bottom: 30px;
-  color: white;
-}
-
-.foot-lasttext {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 190.6%;
 }
 
 
@@ -631,6 +456,154 @@ hr {
   display: none;
 }
 
+
+.s5 {
+  padding: 140px 0 100px 0;
+}
+
+.s5-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 187.5%;
+  color: #222222;
+}
+
+.s5-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 187.5%;
+  color: #525252;
+}
+
+.s6-title {
+  margin-bottom: 34px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.s6-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #515151;
+}
+.s6-button {
+  padding: 13px 45px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #DC7000;
+}
+
+.s6-img {
+  position: relative;
+  left: -3%;
+}
+
+.s7-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 187.5%;
+  color: #222222;
+}
+.s7-text {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 187.5%;
+  color: #525252;
+}
+
+.s7-box {
+  padding: 30px 22px;
+  background-color: #1B1B1B;
+  border-radius: 15px;
+}
+.s7-input-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+.s7-input-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+.s7-label {
+  padding: 6px 6px 6px 15px;
+  border-radius: 8px;
+}
+.s7-input {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  color: #898989;
+  border: none;
+  background-color: transparent;
+  outline: white;
+}
+
+.s7-input-button {
+  padding: 7px 11px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  border: none;
+  border-radius: 8px !important;
+  background-color: #DC7000;
+}
+
+
+.site-footer {
+  margin-top: 150px;
+  padding: 0px 0 30px 0;
+  background-color: #1B1B1B;
+}
+
+.foot-top {
+  padding-top: 66px;
+}
+
+.foot-1-text {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;;
+}
+.foot-1-lasttext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+}
+.foot-2-toptext {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+}
+.foot-2-items-links {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 186.3%;
+  color: #FFFFFF;  
+  text-decoration: none;
+}
+
+hr {
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.foot-lasttext {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 190.6%;
+}
+
+
 @media only screen and (max-width: 700px)  {
   #demos {
     padding: 55px 0 140px 0;
@@ -750,6 +723,34 @@ hr {
 
 }
 
+
+@media only screen and (max-width: 870px) {
+  .s1-intro {
+    background-image: url("./images/intro-mountains.svg");
+    background-size: auto 500px;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 136px) calc(50% + 55px);
+  }
+}
+
+@media only screen and (min-width: 870px) and (max-width: 1100px) {
+  .s1-intro {
+    background-image: url("./images/intro-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 115px) calc(50% + 0px);
+  }
+}
+
+
+@media only screen and (min-width: 1100px) {
+  .s1-intro {
+    background-image: url("./images/intro-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 0px) calc(50% + 0px);
+  }
+}
 
 @media only screen and (min-width: 500px) {
   .s1-top-word {
