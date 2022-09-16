@@ -8,13 +8,27 @@
    <title>4-month-exam</title>
    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
    <link rel="stylesheet" href="./main.css">
+
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css">
+
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/ico/apple-touch-icon-144-precomposed..png">
+  <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+
+  <!-- javascript -->
+  <script src="../assets/vendors/jquery.min.js"></script>
+  <script src="../assets/owlcarousel/owl.carousel.js"></script>
+
 </head>
 
 <body>
 
-
    <header>
-      <div class="container-custom py-2 d-flex align-items-center justify-content-end pe-5">
+      <div class="container-custom py-2 d-none d-md-flex align-items-center justify-content-end pe-5">
          <address class="addres mb-0">
             Company Address type here
          </address>
@@ -163,6 +177,142 @@
             </div>
          </div>
       </section>
+
+
+      <section id="demos">
+         <div class="container-custom">
+            <h2 class="s4-title">
+               Lorem Ipsum
+            </h2>
+            <p class="s4-text">
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            </p>
+         </div>
+
+         <div class="row">
+           <div class="large-12 columns">
+             <div class="owl-carousel owl-theme">
+               <div class="item d-flex flex-column align-items-end">
+                 <div>
+                  <span class="s4-carousel-top-box1">
+                     lorem ipsum
+                  </span>
+                   <h3 class="s4-carusel-title mb-3">
+                     lorem ipsum
+                   </h3>
+                   <p class="s4-carousel-text">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                     industry's standard dummy text ever since the 1500s,
+                   </p>
+                 </div>
+                 <a class="s4-carousel-link text-decoration-none" href="#">
+                  Read more
+                </a>
+               </div>
+               <div class="item d-flex flex-column align-items-end">
+                  <div>
+                     <span class="s4-carousel-top-box2">
+                        lorem ipsum
+                     </span>
+                    <h3 class="s4-carusel-title mb-3">
+                      lorem ipsum
+                    </h3>
+                    <p class="s4-carousel-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                      industry's standard dummy text ever since the 1500s,
+                    </p>
+                  </div>
+                  <a class="s4-carousel-link text-decoration-none" href="#">
+                   Read more
+                 </a>
+                </div>
+                <div class="item d-flex flex-column align-items-end">
+                  <div>
+                     <span class="s4-carousel-top-box3">
+                        lorem ipsum
+                     </span>
+                    <h3 class="s4-carusel-title mb-3">
+                      lorem ipsum
+                    </h3>
+                    <p class="s4-carousel-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                      industry's standard dummy text ever since the 1500s,
+                    </p>
+                  </div>
+                  <a class="s4-carousel-link text-decoration-none" href="#">
+                   Read more
+                 </a>
+                </div>
+                <div class="item d-flex flex-column align-items-end">
+                  <div>
+                     <span class="s4-carousel-top-box4">
+                        lorem ipsum
+                     </span>
+                    <h3 class="s4-carusel-title mb-3">
+                      lorem ipsum
+                    </h3>
+                    <p class="s4-carousel-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                      industry's standard dummy text ever since the 1500s,
+                    </p>
+                  </div>
+                  <a class="s4-carousel-link text-decoration-none" href="#">
+                   Read more
+                 </a>
+                </div>
+                <div class="item d-flex flex-column align-items-end">
+                  <div>
+                     <span class="s4-carousel-top-box5">
+                        lorem ipsum
+                     </span>
+                    <h3 class="s4-carusel-title mb-3">
+                      lorem ipsum
+                    </h3>
+                    <p class="s4-carousel-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                      industry's standard dummy text ever since the 1500s,
+                    </p>
+                  </div>
+                  <a class="s4-carousel-link text-decoration-none" href="#">
+                   Read more
+                 </a>
+                </div>
+             </div>
+     
+             <script>
+               $(document).ready(function () {
+                 var owl = $('.owl-carousel');
+                 owl.owlCarousel({
+                   stagePadding: 50,
+                   margin: 10,
+                   nav: true,
+                   loop: true,
+                   responsive: {
+                     320: {
+                       items: 1
+                     },
+                     700: {
+                       items: 2
+                     },
+                     1000: {
+                       items: 3
+                     },
+                     1200: {
+                       items: 4
+                     },
+                     // 1400: {
+                     //   items: 5
+                     // }
+                   }
+                 })
+               })
+             </script>
+           </div>
+         </div>
+       </section>
+
+
+
       <section>
          <div class="container-custom">
             <div class="s5 px-md-4 px-lg-5">
